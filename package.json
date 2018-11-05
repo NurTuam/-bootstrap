@@ -1,0 +1,30 @@
+{
+  "name": "xinguang",
+  "version": "1.0.0",
+  "description": "项目 新广货运联盟bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "新广货运联盟"
+  ],
+  "author": "heyongjie",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jquery": "^1.12.4",
+    "mongoose": "^5.3.9",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "x-template": "^0.1.0",
+    "xtemplate": "^4.6.1",
+    "xtpl": "^3.4.0"
+  }
+}

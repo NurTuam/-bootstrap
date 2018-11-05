@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="../images/logo.ico">
+		<title>新广货运联盟有限公司-登录</title>
+		<meta name="description" content="新广货运联盟实现了车找货、货找车的实时连接，通过互联网服务于广大货运司机和相关货运的各界人。新广货运联盟坚持社会效益始终第一的原则，服务质量期待你的关注，希望一路与你同行，共创美好的未来！">
+		<meta name="keywords" content="新广货运联盟,物流,新广货运联盟,货运,货运联盟">
+		<!--<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />-->
+		<!--<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css" />-->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+		<!--[if lt IE 9]>
+    	<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    	<![endif]-->
+	</head>
+
+	<body>
+		<div class="login-container">
+			<h1>会员登录</h1>
+			<form action="" method="post" id="loginForm">
+				<div>
+					<input type="text" name="username" class="username" placeholder="会员用户名" autocomplete="off" autocomplete="tel"/>
+				</div>
+				<div>
+					<input type="password" name="password" class="password" placeholder="密码" oncontextmenu="return false" onpaste="return false" />
+				</div>
+				<div>
+					<input class="input-val" type="text" placeholder="请输入验证码" style="width:150px; float:left"><canvas id="canvas">
+				</div>
+				<div class="buttondiv">
+				<button class="log" id="submit" type="submit" >登 陆</button>
+				<button class="reset" type="reset" style="background:#F0AD4E;">重 置</button>
+				</div>
+			</form>
+			<a href="/register">
+				<button type="button" class="register-tis">还没有账号？</button>
+			</a>
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+		<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+		<!--背景切换-->
+		<script src="../js/supersized.3.2.7.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/supersized-init.js" type="text/javascript" charset="utf-8"></script>
+		<!--验证-->
+		<script src="../js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--验证码-->
+		<script src="../js/login-canvas.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
